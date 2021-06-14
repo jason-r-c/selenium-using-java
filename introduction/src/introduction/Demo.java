@@ -12,7 +12,10 @@ public class Demo {
 		// We type the variableas WebDriver as that is the interface we are
 		// implementing via ChromeDriver.		
 		WebDriver driver = new ChromeDriver();
+		
 		driver.get("http://google.co.uk");
+		
+		System.out.println(driver.getTitle());
 	}
 
 }
