@@ -7,6 +7,9 @@ public class Demo {
 
 	public static void main(String[] args) {
 
+		/**
+		 * Chrome web browser
+		 */
 		System.setProperty("webdriver.chrome.driver", "/home/parallels/eclipse-workspace/chromedriver");
 		
 		// We type the variableas WebDriver as that is the interface we are
@@ -16,6 +19,7 @@ public class Demo {
 		driver.get("http://google.co.uk");
 		
 		System.out.println(driver.getTitle());
+
 	}
 
 }
