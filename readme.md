@@ -1,3 +1,7 @@
+## Course progress
+https://www.udemy.com/course/selenium-real-time-examplesinterview-questions/learn/lecture/1979266#notes
+
+
 ## Issues Building the project
 
 If there are any issues with building the project try setting the java compiler to 1.7
@@ -10,3 +14,4 @@ When creating a new project, do NOT create a 'module-info java file', based on p
 
 ## Display editor in IDE
 When launching eclipse and the workspace (should be the default seleciton) click the Workbench icon on the right hand side. This then the displays the code editor.
+
