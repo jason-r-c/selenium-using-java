@@ -1,6 +1,5 @@
 ## Course progress
-https://www.udemy.com/course/selenium-real-time-examplesinterview-questions/learn/lecture/1979266#notes
-
+https://www.udemy.com/course/selenium-real-time-examplesinterview-questions/learn/lecture/1979272#notes
 
 ## Issues Building the project
 
