@@ -1,6 +1,10 @@
 ## Course progress
 https://www.udemy.com/course/selenium-real-time-examplesinterview-questions/learn/lecture/1979272#notes
 
+
+## Where the Eclipse project can be found
+In the Ubuntu VM > open Terminal > cd ~/eclipse-workspace
+
 ## Issues Building the project
 
 If there are any issues with building the project try setting the java compiler to 1.7
