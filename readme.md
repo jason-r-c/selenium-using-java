@@ -1,6 +1,6 @@
 ## Course progress
-https://www.udemy.com/course/selenium-real-time-examplesinterview-questions/learn/lecture/1979272#notes
-
+19. Course Strategy to learn Java basics for Selenium Automation
+https://www.udemy.com/course/selenium-real-time-examplesinterview-questions/learn/lecture/29132852#announcements
 
 ## Where the Eclipse project can be found
 In the Ubuntu VM > open Terminal > cd ~/eclipse-workspace
@@ -17,4 +17,16 @@ When creating a new project, do NOT create a 'module-info java file', based on p
 
 ## Display editor in IDE
 When launching eclipse and the workspace (should be the default seleciton) click the Workbench icon on the right hand side. This then the displays the code editor.
+
+## How to update Chromedriver
+
+First, check the version of Chrome installed
+
+Go to https://chromedriver.chromium.org/downloads
+
+Find the version you have installed
+
+Download 
+
+Add to ~/eclipse-workspace
 
