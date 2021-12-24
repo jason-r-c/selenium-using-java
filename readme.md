@@ -1,6 +1,5 @@
 ## Course progress
-19. Course Strategy to learn Java basics for Selenium Automation
-https://www.udemy.com/course/selenium-real-time-examplesinterview-questions/learn/lecture/29132852#announcements
+23. Enhanced for loop declaration & using Conditional statements inside the loops - https://www.udemy.com/course/selenium-real-time-examplesinterview-questions/learn/lecture/29132900#announcements
 
 ## Where the Eclipse project can be found
 In the Ubuntu VM > open Terminal > cd ~/eclipse-workspace
