@@ -35,7 +35,7 @@ System.out.println("Am i right: "+amIRight);
 ## Array data type
 
 ```
-// Creating a new int[] creates a place in memory for storing 7 integers
+// Creating a new int[] creates a place in memory for storing 3 integers
 int[] sweetsInJars  = new int[3];
 sweetsInJars[0] = 10;
 sweetsInJars[1] = 15;

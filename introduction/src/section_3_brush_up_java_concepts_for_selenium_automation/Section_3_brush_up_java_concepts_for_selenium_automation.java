@@ -35,7 +35,7 @@ public class Section_3_brush_up_java_concepts_for_selenium_automation {
 		boolean amIRight = true;
 		System.out.println("Am i right: "+amIRight);
 		
-		// Creating a new int[] creates a place in memory for storing 3 integers
+		// Creating a new int[] creates a place in memory for storing 3 integers.
 		int[] sweetsInJars  = new int[3];
 		sweetsInJars[0] = 10;
 		sweetsInJars[1] = 15;
