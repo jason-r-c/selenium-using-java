@@ -133,5 +133,21 @@ for(int i: divisibleByFive) {
 		break;
 	} 
 	
-}	
+}		
+
+/**
+ * NOTES:
+ * 1) Arraylist enables you add and remove indices dynamically during program execution.
+ * This is in contrast to creating a static array where you defined the array size upfront.
+ * To create an Arraylist array we need to import the package then create an instance of the class.
+ */
+
+System.out.println("\n### Arraylist enables you add and remove indices dynamically during program execution. ###");
+ArrayList<String> dyamicArray = new ArrayList();
+dyamicArray.add("Removed value");
+dyamicArray.add("Im");
+dyamicArray.add("Dynamic");
+dyamicArray.remove(0);
+System.out.println(dyamicArray.get());
+System.out.println(dyamicArray.get(1));	
 ```
