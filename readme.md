@@ -1,5 +1,5 @@
 ## Course progress
-23. Enhanced for loop declaration & using Conditional statements inside the loops - https://www.udemy.com/course/selenium-real-time-examplesinterview-questions/learn/lecture/29132900#announcements
+25. What is Arraylist and differences between Arraylist and Arrays - https://www.udemy.com/course/selenium-real-time-examplesinterview-questions/learn/lecture/29132920#questions/1509309
 
 ## Where the Eclipse project can be found
 In the Ubuntu VM > open Terminal > cd ~/eclipse-workspace
