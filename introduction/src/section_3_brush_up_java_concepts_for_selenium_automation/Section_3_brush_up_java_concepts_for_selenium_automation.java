@@ -43,7 +43,7 @@ public class Section_3_brush_up_java_concepts_for_selenium_automation {
 		
 		/**
 		 * NOTES:
-		 * 1) There are multiple ways to use arays
+		 * 1) There are multiple ways to use arrays
 		 */		
 		
 		// Creating a new int[] creates a place in memory for storing 3 integers.
@@ -130,7 +130,7 @@ public class Section_3_brush_up_java_concepts_for_selenium_automation {
 		
 		// Exit loop as soon as we have found a number to be divisible by 5. We ignore all other numbers.
 		System.out.println("\n### Exit loop as soon as we have found a number to be divisible by 5. We ignore all other numbers. ###");
-		System.out.println("### Breaking as soon as we can once we have proven a number is divisible by 5 is a shortcut, enabling the program to exit early, save time and is a form of optimisation. ###");
+		System.out.println("#-> Breaking as soon as we can once we have proven a number is divisible by 5 is a shortcut, enabling the program to exit early, save time and is a form of optimisation. ###");
 		int[] divisibleByFive = {1, 3, 5, 7, 10, 15};
 		for(int i: divisibleByFive) {
 			if(i % 5 == 0) {
@@ -153,10 +153,52 @@ public class Section_3_brush_up_java_concepts_for_selenium_automation {
 		dyamicArray.add("Im");
 		dyamicArray.add("Dynamic");
 		dyamicArray.remove(0);
-		System.out.println(dyamicArray.get());
+		System.out.println(dyamicArray.get(0));
 		System.out.println(dyamicArray.get(1));		
 		
+		/**
+		 * NOTES:
+		 * 1) Strings are objects.
+		 * 2) You can create Strings using the literal syntax.
+		 * 3) You can create Strings using the new String() keyword.
+		 * 4) Same content string literals use the same object in memory.
+		 * 5) Same content string keywords create new objects in memory.
+		 * 
+		 * 
+		 */
+		
+		System.out.println("\n### String literal ###");
+		System.out.println("#-> A new String variable with the same content as an existing String variable, will point to / use the exisitng object space in memory.");
+		String aStringLiteralObject = "A new String literal variable in memory";
+		String theSameStringLiteralObject = "A new String literal variable in memory";
+		System.out.println(aStringLiteralObject);
 
+		System.out.println("\n### String keyword ###");
+		System.out.println("#-> Create a new object in memory with the same content as an existing variable");
+		String firstNewStringKeywordObject = new String("A new keyword var in mem");
+		String secondNewStringKeywordObject = new String("A new keyword var in mem");
+		System.out.println(firstNewStringKeywordObject);
+		
+		System.out.println("\n### Split string in an array using the split() method ###");
+		String breakStringByWhiteSpace = "This will be broken into an array by white space";
+		String[] stringSplitIntoArray = breakStringByWhiteSpace.split(" ");	
+		for(String s: stringSplitIntoArray) {
+			System.out.println(s);
+		}		
+		
+		System.out.println("\n### Iterate over a string printing each letter using charAt() ###");
+		for(int i=0; i<aStringLiteralObject.length(); i++) {
+			System.out.println(aStringLiteralObject.charAt(i));
+		}
+		
+		System.out.println("\n### Print a string in reverse order ###");
+		String basicString = "Basic";
+		for(int i=basicString.length()-1; i>=0; i--) {
+			System.out.println(basicString.charAt(i));
+			
+		}
+		
+		
 
 	} // End main method
 
