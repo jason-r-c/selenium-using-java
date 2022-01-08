@@ -19,7 +19,7 @@ public class Section_2_Install_Java_and_Selenium {
 		 */
 		System.setProperty("webdriver.chrome.driver", "/home/parallels/eclipse-workspace/chromedriver");
 		
-		// We type the variableas WebDriver as that is the interface we are
+		// We 'type' the variableas WebDriver as that is the interface we are
 		// implementing via ChromeDriver.		
 		WebDriver driver = new ChromeDriver();
 		

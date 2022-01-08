@@ -32,3 +32,28 @@ Download
 
 Add to ~/eclipse-workspace
 
+## How to add Template Proposal method information
+I added an answer to my own question on the Q and A section which has screenshots
+https://www.udemy.com/course/selenium-real-time-examplesinterview-questions/learn/lecture/29095978#questions/16615624
+
+Question)
+
+"Hi
+
+Im not too sure how to see method information using Eclipese. For example, when i type driver.get() the template proposal window pops up, but the get() method information isnt displayed - does anyone know how to set this up / enable?
+
+See image attached which hopefully describes what i mean.
+
+Thanks."
+
+Answer)
+
+"After some more digging i have found a solution.
+
+1) If you right click on the Java project folder > click properties:
+
+2) Java Build Path > Classpath > select "client-combined-3.141.59.jar" > click Edit button:
+
+3) External location > External file > "client-combined-3.141.59-sources.jar" > click ok button:
+
+You should now see the method information displayed in the Template Proposal:"
