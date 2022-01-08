@@ -197,9 +197,71 @@ public class Section_3_brush_up_java_concepts_for_selenium_automation {
 			System.out.println(basicString.charAt(i));
 			
 		}
-		
-		
 
+		/**
+		 * NOTES: Create instance of this class
+		 * 1) The instance allows us to call methods
+		 */
+		System.out.println("\n### Call method to print string and return no value ###");
+		Section_3_brush_up_java_concepts_for_selenium_automation classInstance = new Section_3_brush_up_java_concepts_for_selenium_automation();
+		classInstance.helloWorld();
+		
+		System.out.println("\n### Call method which gets square root ###");
+		int square = classInstance.getSquareValue(5, 5);	
+		System.out.println(square);
+		
+		/**
+		 * NOTES: Create instance of external class
+		 */		
+		System.out.println("\n### Call method from external calss to convert farenheight to celsius ###");
+		CustomMethods customMethod = new CustomMethods();
+		Double celsius = customMethod.convertFarenheightToCelsus(100);
+		System.out.println(celsius);
+		
+		/**
+		 * NOTES:
+		 * 1) no need to create instance of class when method marked as static
+		 * 
+		 */
+		System.out.println("\n### Static example ###");
+		staticExample();
+		
+		
+		
 	} // End main method
+	
+	/**
+	 * NOTES: Methods
+	 * 1) Reusable blocks of code
+	 * 2) Methods should not be created within the main method
+	 * 3) Public access modifier enables other classe access to this method
+	 * 4) void return type - nothing is returned
+	 * - integer - an int is returned
+	 * - String - a String is returned 
+	 */
+	
+	/**
+	 * No return value
+	 */
+	public void helloWorld() {
+		System.out.println("Hello world");
+	}	
+	
+	/**
+	 * return value, which uses parameters 
+	 * 
+	 * @param firstValue
+	 * @param secondValue
+	 * @return
+	 */
+	public int getSquareValue(int firstValue, int secondValue) {
+		int square = firstValue * secondValue;
+		return square;
+	}
+	
+	public static void staticExample() {
+		System.out.println("Im a static method");
+	}
+	
 
 } // End class
