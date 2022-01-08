@@ -1,5 +1,5 @@
 ## Course progress
-27. How to create methods and access methods using Java class objects - https://www.udemy.com/course/selenium-real-time-examplesinterview-questions/learn/lecture/29132962#questions/1509309
+31. Importance of locators in Selenium WebDriver to identify the elements - https://www.udemy.com/course/selenium-real-time-examplesinterview-questions/learn/lecture/29095972#questions/1509309
 
 ## Where the Eclipse project can be found
 In the Ubuntu VM > open Terminal > cd ~/eclipse-workspace
