@@ -1,5 +1,5 @@
 ## Course progress
-31. Importance of locators in Selenium WebDriver to identify the elements - https://www.udemy.com/course/selenium-real-time-examplesinterview-questions/learn/lecture/29095972#questions/1509309
+32. Identifying the Web elements with id and name locators with example - https://www.udemy.com/course/selenium-real-time-examplesinterview-questions/learn/lecture/29095978#overview
 
 ## Where the Eclipse project can be found
 In the Ubuntu VM > open Terminal > cd ~/eclipse-workspace
