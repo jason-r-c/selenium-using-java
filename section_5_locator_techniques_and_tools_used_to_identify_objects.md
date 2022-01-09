@@ -3,7 +3,7 @@
 driver.findElement(By.id("inputUsername"));
 ```
 
-## Get element by html attribute
+## Get element by html name attribute
 ```
 driver.findElement(By.name("inputPassword"));
 ```
