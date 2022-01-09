@@ -1,5 +1,5 @@
 ## Course progress
-32. Identifying the Web elements with id and name locators with example - https://www.udemy.com/course/selenium-real-time-examplesinterview-questions/learn/lecture/29095978#overview
+33. Introducing Class name and Css Selector locators to identify elements - https://www.udemy.com/course/selenium-real-time-examplesinterview-questions/learn/lecture/29095980#overview
 
 ## Where the Eclipse project can be found
 In the Ubuntu VM > open Terminal > cd ~/eclipse-workspace
