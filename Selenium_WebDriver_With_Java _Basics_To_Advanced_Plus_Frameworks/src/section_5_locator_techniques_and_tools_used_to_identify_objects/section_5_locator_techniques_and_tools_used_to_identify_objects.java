@@ -4,6 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class section_5_locator_techniques_and_tools_used_to_identify_objects {
 
@@ -33,11 +35,26 @@ public class section_5_locator_techniques_and_tools_used_to_identify_objects {
 		password.sendKeys("mcchicken");
 		
 		System.out.println("\n### Find an element by the html class attribute. Note that the element has 2 classes"
-				+ "and we only provided 1 class, so basically we dont need to locate by search for all classes."
+				+ "and we only provided 1 class, so basically we dont need to locate by search for all classes. "
 				+ "Then get the button text and click it. ###");
 		WebElement signInBtn = driver.findElement(By.className("signInBtn"));
 		System.out.println("The top left-hand corner of the rendered element is: "+signInBtn.getText());
 		signInBtn.click();
+		
+		/**
+		 * NOTES:	
+		 * 1) Using the WebDriverWait() method, we can wait (up to a defined period of time) until an element is visible
+		 * The wait will stop as soon as the 'ExpectedConditions' has been met.
+		 * 2) You can use cssSelector() method which hangs off of the By object.
+		 * 
+		 * Resources:
+		 * https://www.browserstack.com/guide/wait-commands-in-selenium-webdriver
+		 */
+		WebDriverWait wait = new WebDriverWait(driver, 10);
+		WebElement errorMsg = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".error")) );
+		System.out.println("\n### Wait up to 10 seconds for the 'error' element to become visible on screen. "
+				+ "Once the element is visible, we print the element content. ###");
+		System.out.println("The error message is: "+errorMsg.getText() );
 
 
 	}
