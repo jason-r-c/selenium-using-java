@@ -1,5 +1,5 @@
 ## Course progress
-33. Introducing Class name and Css Selector locators to identify elements - https://www.udemy.com/course/selenium-real-time-examplesinterview-questions/learn/lecture/29095980#overview
+34. Browser plugins- Selectorshub to identify and validate the elements on the page - https://www.udemy.com/course/selenium-real-time-examplesinterview-questions/learn/lecture/29096016#overview
 
 ## Where the Eclipse project can be found
 In the Ubuntu VM > open Terminal > cd ~/eclipse-workspace
