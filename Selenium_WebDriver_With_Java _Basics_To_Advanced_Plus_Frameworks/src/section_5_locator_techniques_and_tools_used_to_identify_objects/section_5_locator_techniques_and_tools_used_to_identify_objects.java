@@ -45,6 +45,10 @@ public class section_5_locator_techniques_and_tools_used_to_identify_objects {
 		 * NOTES:	
 		 * 1) Using the WebDriverWait() method, we can wait (up to a defined period of time) until an element is visible
 		 * The wait will stop as soon as the 'ExpectedConditions' has been met.
+		 * 1.1) WebDriverWait() is an Explicit wait whereby Selenium waits until the element is present or fails.
+		 * 1.2) Implicit waits wait for the specified time regardless if the element is present already. Implicit waits 
+		 * add more time to test run time which isnt good.
+		 * An example driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS)
 		 * 2) You can use cssSelector() method which hangs off of the By object.
 		 * 
 		 * Resources:
@@ -56,6 +60,18 @@ public class section_5_locator_techniques_and_tools_used_to_identify_objects {
 				+ "Once the element is visible, we print the element content. ###");
 		System.out.println("The error message is: "+errorMsg.getText() );
 
+		/** 
+		 * NOTES:
+		 * 1) Find a link by the text within the element
+		 * 2) Use xpath queries to find and enter login details
+		 * 
+		 */
+		driver.findElement(By.linkText("Forgot your password?")).click();
+		System.out.println("\n### Find a link by its inner text then click it. Then find login fields and enter info.");
+		driver.findElement(By.xpath("//input[@placeholder = 'Name']")).sendKeys("testmctest");
+		driver.findElement(By.xpath("//input[@placeholder = 'Email']")).sendKeys("testmctest@example.com");
+		driver.findElement(By.xpath("//input[@placeholder = 'Phone Number']")).sendKeys("12345678910");
+		
 
 	}
 
