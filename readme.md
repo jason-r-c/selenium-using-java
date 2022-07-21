@@ -74,6 +74,9 @@ Then Log out and Log in ubuntu for setting up the paths...
 ## Where the Eclipse project can be found
 In the Ubuntu VM > open Terminal > cd ~/eclipse-workspace
 
+## Open this repo
+Once Eclipse has downloaded, download this repo and move to /home/parallels/eclipse-workspace. When thats doen the project should live  at /home/parallels/eclipse-workspace/selenium-using-java
+
 ## Issues Building the project
 If there are any issues with building the project try setting the java compiler to 1.7
 
