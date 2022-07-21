@@ -52,21 +52,26 @@ java -version
 
 Scrape for bullet 2:
 
-```
+
 set environment variables as follows
 
 Edit the system Path file /etc/profile
 
+```
 sudo gedit /etc/profile
+```
+
 Add following lines in end
 
+```
 JAVA_HOME=/usr/lib/jvm/jdk1.7.0
 PATH=$PATH:$HOME/bin:$JAVA_HOME/bin
 export JAVA_HOME
 export JRE_HOME
 export PATH
-Then Log out and Log in ubuntu for setting up the paths...
 ```
+
+Then Log out and Log in ubuntu for setting up the paths...
 
 ## Where the Eclipse project can be found
 In the Ubuntu VM > open Terminal > cd ~/eclipse-workspace
