@@ -2,9 +2,9 @@
 34. Browser plugins- Selectorshub to identify and validate the elements on the page - https://www.udemy.com/course/selenium-real-time-examplesinterview-questions/learn/lecture/29096016#overview
 
 ## Install Open JDK
-1- See https://stackoverflow.com/questions/14788345/how-to-install-the-jdk-on-ubuntu-linux and follow instructions of top rated comment. 
+See https://stackoverflow.com/questions/14788345/how-to-install-the-jdk-on-ubuntu-linux and follow instructions of top rated comment. 
 
-2- When setting enviroment variable, see https://stackoverflow.com/questions/9612941/how-to-set-java-environment-path-in-ubuntu and folowing instructions of top rated comment. 
+When setting enviroment variable, see https://stackoverflow.com/questions/9612941/how-to-set-java-environment-path-in-ubuntu and folowing instructions of top rated comment. 
 
 If not avaible there is a scrape below for bullet 1:
 
