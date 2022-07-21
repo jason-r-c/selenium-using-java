@@ -4,11 +4,7 @@
 ## Install Open JDK
 
 ### How to install the JDK on Ubuntu Linux
-See https://stackoverflow.com/questions/14788345/how-to-install-the-jdk-on-ubuntu-linux and follow instructions of top rated comment. 
-
-When setting enviroment variable, see https://stackoverflow.com/questions/9612941/how-to-set-java-environment-path-in-ubuntu and folowing instructions of top rated comment. 
-
-If not avaible there is a scrape below for bullet 1:
+See https://stackoverflow.com/questions/14788345/how-to-install-the-jdk-on-ubuntu-linux and follow instructions of top rated comment. If not available there is a scrape below:
 
 1. Open Terminal from Application Dash or press Ctrl+Alt+T
 
@@ -52,10 +48,10 @@ export PATH=$PATH:$JAVA_HOME/bin
 java -version
 ```
 
-Scrape for bullet 2:
+### How to set Java environment path in Ubuntu
+See https://stackoverflow.com/questions/9612941/how-to-set-java-environment-path-in-ubuntu and folowing instructions of top rated comment. If not available there is a scrape below:
 
-
-set environment variables as follows
+Set environment variables as follows
 
 Edit the system Path file /etc/profile
 
